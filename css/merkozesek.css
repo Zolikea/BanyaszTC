@@ -1,0 +1,53 @@
+/* ====================================
+   MÉRÉSZÉS EREDMÉNYEK STÍLUSA (merkozesek.css)
+   Semleges (színmentes) stílusok.
+==================================== */
+
+/* 1. Az Accordion gomb finomhangolása a helyes elrendezéshez (eredmény fixálása) */
+.accordion-button {
+    font-weight: 600; 
+    display: flex; /* Flexbox a cím és az eredmény elválasztásához */
+    align-items: center;
+    padding-right: 1rem; 
+}
+
+/* 2. A meccs címének (h5) és az eredménynek (span) az elrendezése */
+.accordion-button h5 {
+    /* Engedi, hogy kitöltse a rendelkezésre álló helyet */
+    flex-grow: 1; 
+    margin-right: 1rem !important; 
+    /* Engedélyezi a hosszú címek tördelését kis képernyőn */
+    word-break: break-word;
+}
+
+/* 3. Az eredmény (span) fixálása a jobb oldalon */
+.accordion-button span {
+    /* Megakadályozza az eredmény összenyomódását */
+    flex-shrink: 0; 
+    /* Megakadályozza az eredmény tördelését */
+    white-space: nowrap; 
+    font-size: 1.25rem !important; 
+    font-weight: bold;
+}
+
+
+/* Az Edzői Értékelés blokk diszkrét formázása */
+.coach-review {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    background-color: #f8f9fa; /* Világosszürke háttér */
+    margin-top: 1rem;
+}
+
+/* A harmonika (accordion) tételek közötti vizuális elválasztás */
+.accordion-item {
+    border: 1px solid #e9ecef;
+    margin-bottom: 0.5rem;
+}
+
+/* A kártya alapszöveg színeinek biztosítása (nincs győzelem/vereség szín) */
+.accordion-button h5, 
+.accordion-button span {
+    color: inherit !important; 
+}

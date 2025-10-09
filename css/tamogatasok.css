@@ -1,0 +1,34 @@
+
+
+/* ====================================
+   TÁMOGATÁSOK OLDAL STÍLUSA (tamogatasok.css)
+   Cél: Szolidabb, letisztult megjelenés Bootstrap alapon.
+==================================== */
+
+/* Kiemelt támogatási szekció diszkrét árnyékkal */
+.support-jumbotron {
+    padding: 3rem 2rem;
+    background-color: #f8f9fa; /* Nagyon világos szürke háttér */
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+}
+
+/* A táblázat fejlécének diszkrét kiemelése */
+.support-table th {
+    background-color: #e9ecef; /* Halvány szürke */
+    font-weight: 600;
+}
+
+/* A kiemelt gomb finomhangolása */
+.main-cta-button {
+    font-size: 1.25rem;
+    padding: 0.75rem 2.25rem;
+    border-radius: 0.3rem;
+    /* A szolidabb hatásért eltávolítjuk az erős shadow-t */
+}
+
+/* Különbségtétel a fő támogatási link és a többi csatorna között */
+.main-support-channel {
+    font-weight: bold;
+    color: #0d6efd; /* Kék színnel emeljük ki a linket a táblázatban */
+}
