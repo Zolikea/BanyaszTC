@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
     <link rel="icon" type="image/x-icon" href="images/banyasz.png">
     <link rel="stylesheet" href="css/style.css">     
     <title>Részletes Eredmények - Bányász-TC</title>
@@ -32,7 +34,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="merkozesek.html">Részletes Eredmények</a>
                     </li>
-                    <li class="nav_item">
+                    <li class="nav-item">
                         <a class="nav-link" href="hirek.html">Hírek</a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="tamogatasok.html">Webshop és Támogatás <i class="bi bi-heart-fill text-white"></i></a></li>
@@ -43,17 +45,17 @@
     
     <main class="container my-5">
         
-        <h1 class="text-center mb-5 pb-2 border-bottom">Részletes Mérkőzés Elemzések</h1>
+        <h1 class="text-center mb-5 pb-2 border-bottom">Mérkőzés Riportok és Eredmények</h1>
         
         <ul class="nav nav-tabs mb-4" id="teamTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="felnott-tab" data-bs-toggle="tab" data-bs-target="#felnott" type="button" role="tab" aria-controls="felnott" aria-selected="true">Felnőtt Csapat</button>
+                <button class="nav-link active" id="felnott-tab" data-bs-toggle="tab" data-bs-target="#felnott" type="button" role="tab" aria-controls="felnott" aria-selected="true"><i class="bi bi-person-fill"></i> Felnőtt Csapat</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="u19-tab" data-bs-toggle="tab" data-bs-target="#u19" type="button" role="tab" aria-controls="u19" aria-selected="false">U19 Utánpótlás</button>
+                <button class="nav-link" id="u19-tab" data-bs-toggle="tab" data-bs-target="#u19" type="button" role="tab" aria-controls="u19" aria-selected="false"><i class="bi bi-people-fill"></i> U19 Utánpótlás</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="oregfiuk-tab" data-bs-toggle="tab" data-bs-target="#oregfiuk" type="button" role="tab" aria-controls="oregfiuk" aria-selected="false">Öregfiúk</button>
+                <button class="nav-link" id="oregfiuk-tab" data-bs-toggle="tab" data-bs-target="#oregfiuk" type="button" role="tab" aria-controls="oregfiuk" aria-selected="false"><i class="bi bi-trophy-fill"></i> Öregfiúk</button>
             </li>
         </ul>
 
@@ -72,11 +74,11 @@
 
                 <div class="tab-content" id="felnott-year-tabContent">
                     <div class="tab-pane fade show active" id="felnott-2025" role="tabpanel" aria-labelledby="felnott-2025-tab">
-                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok</h4>
+                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok (Felnőtt)</h4>
                         
                         <div class="accordion" id="felnottAccordion2025">
                             
-                            <div class="accordion-item match-report-card">
+                            <div class="accordion-item match-report-card shadow-sm mb-2">
                                 <h2 class="accordion-header" id="headingOneFelnott">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneFelnott" aria-expanded="false" aria-controls="collapseOneFelnott">
                                         <h5 class="mb-0 h5">Bányász-TC vs. ESE Hidas</h5>
@@ -95,12 +97,9 @@
                                 </div>
                             </div>
                             
-                            </div>
-                    </div>
+                            </div> </div>
                 </div>
-            </div>
-            
-            <div class="tab-pane fade" id="u19" role="tabpanel" aria-labelledby="u19-tab">
+            </div> <div class="tab-pane fade" id="u19" role="tabpanel" aria-labelledby="u19-tab">
                 
                 <div class="my-4">
                     <h3 class="h5">Válassz szezont:</h3>
@@ -113,11 +112,11 @@
                 
                 <div class="tab-content" id="u19-year-tabContent">
                     <div class="tab-pane fade show active" id="u19-2025" role="tabpanel" aria-labelledby="u19-2025-tab">
-                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok</h4>
+                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok (U19)</h4>
                         
                         <div class="accordion" id="u19Accordion2025">
                             
-                            <div class="accordion-item match-report-card">
+                            <div class="accordion-item match-report-card shadow-sm mb-2">
                                 <h2 class="accordion-header" id="headingOneU19">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneU19" aria-expanded="false" aria-controls="collapseOneU19">
                                         <h5 class="mb-0 h5">Bányász-TC U19 vs. Ketújfalui SE U19</h5>
@@ -136,7 +135,7 @@
                                 </div>
                             </div>
 
-                            <div class="accordion-item match-report-card mt-2">
+                            <div class="accordion-item match-report-card shadow-sm mb-2">
                                 <h2 class="accordion-header" id="headingTwoU19">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoU19" aria-expanded="false" aria-controls="collapseTwoU19">
                                         <h5 class="mb-0 h5">Sellye U19 vs. Bányász-TC U19</h5>
@@ -155,12 +154,9 @@
                                 </div>
                             </div>
                             
-                            </div>
-                    </div>
+                        </div> </div>
                 </div>
-            </div>
-            
-            <div class="tab-pane fade" id="oregfiuk" role="tabpanel" aria-labelledby="oregfiuk-tab">
+            </div> <div class="tab-pane fade" id="oregfiuk" role="tabpanel" aria-labelledby="oregfiuk-tab">
                 
                 <div class="my-4">
                     <h3 class="h5">Válassz szezont:</h3>
@@ -173,11 +169,11 @@
                 
                 <div class="tab-content" id="oregfiuk-year-tabContent">
                     <div class="tab-pane fade show active" id="oregfiuk-2025" role="tabpanel" aria-labelledby="oregfiuk-2025-tab">
-                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok</h4>
+                        <h4 class="mt-3 mb-4">2025/2026 - Meccsriportok (Öregfiúk)</h4>
                         
                         <div class="accordion" id="oregfiukAccordion2025">
 
-                            <div class="accordion-item match-report-card">
+                            <div class="accordion-item match-report-card shadow-sm mb-2">
                                 <h2 class="accordion-header" id="headingOneOregfiuk">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneOregfiuk" aria-expanded="false" aria-controls="collapseOneOregfiuk">
                                         <h5 class="mb-0 h5"> Himesházi SE Öregfiúk vs. Bányász-TC Öregfiúk </h5>
@@ -189,43 +185,38 @@
                                         <p class="small text-muted">2025. Szeptember 15. – Barátságos mérkőzés</p>
                                         <div class="coach-review">
                                             <h5 class="fw-bold">Értékelés:</h5>
-                                            <p>---</p>
+                                            <p>A mérkőzés remek hangulatban telt, a csapatnak a második félidőre már kevés volt az ereje a szépítéshez. A lényeg, hogy játszottunk!</p>
                                             <p class="text-end fst-italic">— Csapatvezető</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
-                            </div>
-                    </div>
+                            </div> </div>
                 </div>
-
-            </div>
-
-        </div> 
-    </main>
+            </div> </div> </main>
 
     <footer class="bg-dark text-white text-center p-3 mt-5"> 
         <div class="container">
-<div class="row">
-    <div class="col-md-6 mb-2 mb-md-0">
-        <p class="mb-0">
-            <a href="impresszum.html" class="text-white footer-link text-white mx-2">
-                © 2025 Bányász-TC
-            </a>
-        </p>
-    </div>
-    <div class="col-md-6">
-        <p class="mb-0">
-            <a href="https://www.facebook.com/groups/425553368944439" target="_blank" class="text-white footer-link text-white mx-2 mx-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.79.157 1.79.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.32H9.492v5.625c3.823-.604 6.75-3.934 6.75-7.951z"/>
-                </svg>
-                Kövess minket Facebookon!
-            </a>
-        </p>
-    </div>
-</div>
+            <div class="row">
+                <div class="col-md-6 mb-2 mb-md-0">
+                    <p class="mb-0">
+                        <a href="impresszum.html" class="text-white footer-link text-white mx-2">
+                            © 2025 Bányász-TC
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="mb-0">
+                        <a href="https://www.facebook.com/groups/425553368944439" target="_blank" class="text-white footer-link text-white mx-2 mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.79.157 1.79.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.32H9.492v5.625c3.823-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                            Kövess minket Facebookon!
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 
